@@ -1,0 +1,45 @@
+/* цвет лого #2196F3 #000000 */
+/*  цвет заголовков #212121 */
+/* дополнительний цвет текста #FFFFFF */
+/* основной текст  #757575 */
+/* текст контактов rgba(255, 255, 255, 0.6) */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+h2, h3 {
+    color: var(--title-text-color);
+}
+
+h1 {
+    color: var(--primary-white-color);
+}
+
+p {
+    color: var(--primary-text-color);
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.logo-black {
+    color: #000000;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+
+}
+
+.site-nav .link:hover, .link:focus {
+    color: var(--accent-color);
+}
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
