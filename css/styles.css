@@ -13,16 +13,12 @@
     --primary-white-color: #FFFFFF;
 }
 
-h2, h3 {
+.second-title {
     color: var(--title-text-color);
 }
 
-h1 {
+.title {
     color: var(--primary-white-color);
-}
-
-p {
-    color: var(--primary-text-color);
 }
 
 li {
@@ -86,7 +82,8 @@ a .logo-blue {
     /* Меін контент */
 
 body {
-    font-family: Roboto;
+    font-family: Roboto; sans-serif;
+    color: var(--primary-text-color)
     }
 
 .baner {
@@ -106,6 +103,7 @@ body {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
+        cursor: pointer;
     }
 
     .benefits {
@@ -121,7 +119,6 @@ body {
 }
 
 .benefits-item {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -147,7 +144,6 @@ body {
 }
 
 .team p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -172,7 +168,6 @@ address {
     text-decoration: none;
     color: var(--primary-white-color);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -182,7 +177,6 @@ address {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
