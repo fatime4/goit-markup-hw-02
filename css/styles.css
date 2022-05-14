@@ -11,6 +11,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    --primary-background-color: #F5F4FA;
 }
 
 .second-title {
@@ -96,7 +97,7 @@ body {
         text-transform: uppercase;
     }
 
-    .button {
+    .baner-button {
         color: var(--primary-white-color);
         background-color: var(--accent-color);
         font-family: inherit;
@@ -132,7 +133,7 @@ body {
     letter-spacing: 0.03em;
 }
     .team {
-        background-color: #F5F4FA;
+        background-color: var(--primary-background-color);
     }
 
 .team h3 {
@@ -160,17 +161,17 @@ footer .logo-black {
     font-family: Raleway; sans-serif;
 }
 
-address {
-    font-family: Roboto; sans-serif;
-}
-
-.adress-link {
-    text-decoration: none;
+.address-link {
     color: var(--primary-white-color);
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address .address-link:hover, .address-link:focus {
+    color: var(--accent-color);
 }
 
 .contact-link {
@@ -186,3 +187,32 @@ address {
     color: var(--accent-color);
 }
 /* Стили для портфолио */
+
+.filter-button {
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filter-buttons .filter-button:hover, .filter-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color)   ;
+}
+
+.portfolio-cards .card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
