@@ -4,6 +4,8 @@
 /* основной текст  #757575 */
 /* текст контактов rgba(255, 255, 255, 0.6) */
 
+/* Стили для index*/
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -22,24 +24,171 @@ h1 {
 p {
     color: var(--primary-text-color);
 }
-.logo-blue {
-    color: var(--accent-color);
+
+li {
+    list-style-type: none;
 }
 
-.logo-black {
+
+/* Шапка */
+
+header {
+    background-color: #FFFFFF;
+    font-family: Roboto; sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+header .logo-black, footer .logo-black {
     color: #000000;
+    font-family: Raleway; sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
-.site-nav .link {
-    color: var(--title-text-color);
-
-}
-
-.site-nav .link:hover, .link:focus {
+a .logo-blue {
     color: var(--accent-color);
 }
 
-.button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+.site-nav .nav-link {
+    color: var(--title-text-color);
+    text-decoration: none;
+
 }
+
+.site-nav .nav-link:hover:hover, .nav-link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .nav-link.current {
+    color: var(--accent-color);
+}
+
+.nav-contacts .contact {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    }
+
+.nav-contacts .nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+    }
+
+.nav-contacts .nav-link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    }
+    
+    /* Меін контент */
+
+body {
+    font-family: Roboto;
+    }
+
+.baner {
+        background-color: #2F303A;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
+    .button {
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+    }
+
+    .benefits {
+        background-color: #FFFFFF;
+    }
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.benefits h2, .team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+    .team {
+        background-color: #F5F4FA;
+    }
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Футер */
+
+footer {
+    background-color: #2F303A;
+}
+
+footer .logo-black {
+    font-family: Raleway; sans-serif;
+}
+
+address {
+    font-family: Roboto; sans-serif;
+}
+
+.adress-link {
+    text-decoration: none;
+    color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address .contact-link:hover, .contact-link:focus {
+    color: var(--accent-color);
+}
+/* Стили для портфолио */
