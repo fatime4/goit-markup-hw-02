@@ -161,8 +161,9 @@ footer .logo-black {
     font-family: Raleway; sans-serif;
 }
 
-.address-link {
+.address .address-link {
     color: var(--primary-white-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
