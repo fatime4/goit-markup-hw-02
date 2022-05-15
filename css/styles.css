@@ -14,41 +14,58 @@
     --primary-background-color: #F5F4FA;
 }
 
-.second-title {
+body {
+    font-family: 'Roboto', 'sans-serif';
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+      }
+
+.section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .title {
     color: var(--primary-white-color);
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
-li {
+.list {
     list-style-type: none;
 }
 
 
 /* Шапка */
 
-header {
+.nav-bar {
     background-color: #FFFFFF;
-    font-family: Roboto; sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-header .logo-black, footer .logo-black {
+.logo {
     color: #000000;
-    font-family: Raleway; sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-a .logo-blue {
+.logo-blue,
+.logo-blue {
     color: var(--accent-color);
 }
 
@@ -82,19 +99,10 @@ a .logo-blue {
     
     /* Меін контент */
 
-body {
-    font-family: Roboto; sans-serif;
-    color: var(--primary-text-color)
-    }
 
 .baner {
         background-color: #2F303A;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+        
     }
 
     .baner-button {
@@ -113,76 +121,59 @@ body {
 
 .benefits-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--title-text-color);
 }
 
 .benefits-item {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-}
+    }
 
-.benefits h2, .team h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
+
     .team {
         background-color: var(--primary-background-color);
     }
 
-.team h3 {
+.team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-}
+    color: var(--title-text-color);
+    }
 
-.team p {
+.team-text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-}
+   }
 
 /* Футер */
 
-footer {
+.footer {
     background-color: #2F303A;
 }
 
-footer .logo-black {
-    font-family: Raleway; sans-serif;
+.footer .logo {
+    color: var(--primary-white-color);
 }
 
 .address .address-link {
     color: var(--primary-white-color);
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     text-decoration: none;
     font-style: normal;
 }
 
-.address .address-link:hover, .address-link:focus {
-    color: var(--accent-color);
-}
 
 .contact-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-}
+   }
 
 .address .contact-link:hover, .contact-link:focus {
     color: var(--accent-color);
@@ -196,8 +187,7 @@ footer .logo-black {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
-}
+    }
 
 .filter-buttons .filter-button:hover, .filter-button:focus {
     color: var(--primary-white-color);
@@ -215,5 +205,4 @@ footer .logo-black {
 .description {
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
-}
+    }
