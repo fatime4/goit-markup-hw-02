@@ -24,7 +24,6 @@ body {
 
 .section-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -47,13 +46,6 @@ body {
 
 /* Шапка */
 
-.nav-bar {
-    background-color: #FFFFFF;
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
 
 .logo {
     color: #000000;
@@ -69,34 +61,31 @@ body {
     color: var(--accent-color);
 }
 
-.site-nav .nav-link {
+.nav-link {
     color: var(--title-text-color);
     text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 
-.site-nav .nav-link:hover:hover, .nav-link:focus {
+.nav-link:hover:hover, .nav-link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .nav-link.current {
+.nav-link.current {
     color: var(--accent-color);
 }
 
-.nav-contacts .contact {
+.nav-link.contact-link {
     color: var(--primary-text-color);
-    text-decoration: none;
-    }
+       }
 
 .nav-contacts .nav-link:hover, .nav-link:focus {
     color: var(--accent-color);
     }
 
-.nav-contacts .nav-link {
-    color: var(--primary-text-color);
-    text-decoration: none;
-    }
-    
     /* Меін контент */
 
 
@@ -120,13 +109,13 @@ body {
     }
 
 .benefits-title {
-    font-weight: 700;
-    line-height: 1.14;
+    font-size: 14px;
+        line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 
-.benefits-item {
+.benefits-text {
     line-height: 1.71;
     }
 
@@ -168,7 +157,7 @@ body {
 }
 
 
-.contact-link {
+.footer .contact-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -181,6 +170,7 @@ body {
 /* Стили для портфолио */
 
 .filter-button {
+    font-family: inherit;
     color: var(--title-text-color);
     background-color: var(--primary-background-color);
     font-weight: 500;
@@ -188,6 +178,11 @@ body {
     line-height: 1.62;
     text-align: center;
     }
+
+.filter-button.active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
 
 .filter-buttons .filter-button:hover, .filter-button:focus {
     color: var(--primary-white-color);
