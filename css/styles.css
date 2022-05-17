@@ -12,6 +12,7 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --primary-background-color: #F5F4FA;
+    --accent-hover-color: #188CE8;
 }
 
 body {
@@ -104,6 +105,10 @@ body {
         cursor: pointer;
     }
 
+    .baner .baner-button:hover, .baner-button:focus {
+        background-color: var(--accent-hover-color);
+    }
+
     .benefits {
         background-color: #FFFFFF;
     }
@@ -190,7 +195,6 @@ body {
 }
 
 .portfolio-cards .card-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
